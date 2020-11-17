@@ -1,0 +1,50 @@
+header{
+    margin: 10px;
+}
+
+header::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+header .logo{
+    height: 60px;
+    float: left;
+}
+
+header .title{
+    float: right;
+}
+
+h1{
+    color: darkred;
+}
+
+nav{
+    height: 50px;
+    display: block;
+    background-color: darkgray;
+    margin: 10px auto;
+    border-bottom: gray;
+    border-top: gray;
+}
+
+nav ul{
+    display: inline-block;
+    align-self: center;
+}
+
+nav li{
+    
+    display: inline-block;
+    margin: 0 auto;
+    padding: 5px;
+    
+}
+
+.wrapper{
+
+    margin: 5px auto auto 0;
+
+}
